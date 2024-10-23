@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "proj2_schem_sized_5"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/"
+ )
+( model
+( "proj2_1bit_fulladder/proj2_schem_sized_5/schematic" "proj2_schem_sized_5" )
+ )
+( "proj2_schem_sized_5" "ihnl/cds0/map" )
+ )

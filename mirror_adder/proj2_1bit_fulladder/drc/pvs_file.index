@@ -1,0 +1,61 @@
+"Cadence Directory" internal none /home/t3rampal/ECE637/cadence/.cadence/
+"Current Directory" internal none /home/t3rampal/ECE637/cadence
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/.preset.autosave
+"Job Signature" internal none IPVS_1698613257_23446
+"PVS Job Mode" internal none drc
+"Run Directory" internal none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc
+"Technology Mapping File" internal none /CMC/kits/GPDK45/gpdk045_v_5_0/pvtech.lib
+"Technology Name" internal none "gpdk045_pvs"
+"Technology Rule File" internal none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/.technology.rul
+"Technology RuleSet" internal none "default"
+"PVS Version" internal none 19.12-s008
+"Binary Name" internal none pvsgui
+"PVS Build Date" internal none "Mon Jan 13 18:07:50 PST 2020"
+"PVS Job Time" internal none 1698613260
+"Cell Tree" output text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/cell_tree.txt
+"Control File" input text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/pvsdrcctl
+"DFII version" internal none 6.1.8.0
+"Do not check rules files before run" internal none ENABLED
+"Input Layout" input none OA: proj2_1bit_fulladder proj2_schem_sized_5 layout
+"Intermediate GDSII File" output none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/proj2_schem_sized_5.gds
+"Intermediate GDSII File creation Errors" output none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/PIPO1.LOG
+"Job Signature" internal none IPVS_1698613257_23446
+"Layout Cell Name" internal none proj2_schem_sized_5
+"Layout ConvertPin" internal text geometry
+"Layout GDSII" input none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/proj2_schem_sized_5.gds
+"Layout HierDepth" internal none 32
+"Layout Library Name" internal none proj2_1bit_fulladder
+"Layout MaxVertices" internal none 2048
+"Layout NoConvertHalfWidthPath" input none nil
+"Layout ReplaceBusBitChar" input none nil
+"Layout Scale" internal none 0.0005
+"Layout TechLib" internal none gpdk045
+"Layout Top Cell" internal none proj2_schem_sized_5
+"Layout View Name" internal none layout
+"Output Layout Cellmap I" internal text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/lay_cellMap.txt
+"PIPO Log I" log text  /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/PIPO1.LOG
+"PIPO Output I" internal text  /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/PIPO1.OUT
+"PIPO Setup File I" internal text  /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/pipo1.setup
+"PVS Job Log" log text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/pvsuidrc.log
+"PVS Job Mode" internal none drc
+"Rule File" input text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/.technology.rul
+"Run Directory" internal none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc
+"PVS Version" internal none 19.12-s008
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Mon Jan 13 18:07:50 PST 2020"
+"PVS Job Time" internal none 1698613261
+"ASCII DRC Report Database" output rdb /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/proj2_schem_sized_5.drc_errors.ascii
+"Cell Tree" output text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/cell_tree.txt
+"DRC Summary" output text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/proj2_schem_sized_5.sum
+"Layout GDSII" input none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/proj2_schem_sized_5.gds
+"PVS Job Mode" internal none drc
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/.technology.rul
+"Run Directory" internal none /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/
+"UI Data" internal none ENABLED
+"PVS Version" internal none 19.12-s008
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Mon Jan 13 18:07:50 PST 2020"
+"PVS Job Time" internal none 1698613261

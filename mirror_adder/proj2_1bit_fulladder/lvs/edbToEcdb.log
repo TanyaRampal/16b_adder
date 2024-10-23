@@ -1,0 +1,16 @@
+
+/CMC/tools/cadence/PVS19.12.000_lnx86/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : proj2_schem_sized_5_26539.db
+ECDB dir        : ./
+Top Cell        : proj2_schem_sized_5
+CDL netlist     : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/svdb/proj2_schem_sized_5.net
+Layer map file  : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/svdb/proj2_schem_sized_5.ecdbmap
+Text map file   : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/svdb/proj2_schem_sized_5.ports
+Dependency map  : proj2_schem_sized_5.lmap.perc
+Lvs file        : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/svdb/proj2_schem_sized_5.lvsfile
+Float net file : .proj2_schem_sized_5.info.softchk
+debug           : 0
+Source Library  : proj2_schem_sized_5_26539

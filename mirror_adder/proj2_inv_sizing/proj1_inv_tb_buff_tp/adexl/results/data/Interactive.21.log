@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Oct 21 17:33:02 2023 
+Best design point: 1
+Design specs: 
+	proj1_inv:proj1_inv_tb_buff_tp:1	corner	Nominal - 
+	tpHL		7.216p
+	tpLH		7.178p
+Design parameters: 
+
+Interactive.21
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.21 completed. 
+Current time: Sat Oct 21 17:33:17 2023 

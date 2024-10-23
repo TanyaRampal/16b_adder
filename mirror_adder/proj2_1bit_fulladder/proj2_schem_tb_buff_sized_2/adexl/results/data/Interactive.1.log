@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Oct 21 01:39:58 2023 
+Best design point: 1
+Design specs: 
+	proj2_1bit_fulladder:proj2_schem_tb_buff:1	corner	Nominal - 
+	tpLH		-29.63p
+	tpHL		58.55p
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Sat Oct 21 01:40:02 2023 

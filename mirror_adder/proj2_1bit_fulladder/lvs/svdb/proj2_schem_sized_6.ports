@@ -1,0 +1,9 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary proj2_schem_sized_6
+Ci 3 Ci 10230 2490 metal1_conn
+A 6 A 540 3590 metal1_conn
+Co 9 Co 10920 3050 metal1_conn
+B 7 B 550 980 metal1_conn
+S 10 S 25830 3010 metal1_conn
+VSS 8 VSS 1690 530 metal1_conn
+VDD 14 VDD 2090 3970 metal1_conn

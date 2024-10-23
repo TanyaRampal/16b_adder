@@ -1,0 +1,54 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus Extraction Version 19.1.0-p139 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "VSS"
+distributed_processing \
+	 -multi_cpu 1
+extract \
+	 -selection "all" \
+	 -type "rc_decoupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size \
+		"auto" \
+	 -net_name_space "SCHEMATIC"
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type pvs \
+	 -design_cell_name "proj2_schem_sized_5 layout proj2_1bit_fulladder" \
+	 -directory_name "/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/svdb" \
+	 -format "DFII" \
+	 -run_name "proj2_schem_sized_5"
+log_file \
+	 -file_name "/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/svdb/qrc.proj2_schem_sized_5.log"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -cdl_out_map_directory \
+		"/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs" \
+	 -device_finger_delimiter "@" \
+	 -enable_cellview_check true \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "false" \
+	 -include_res_model "false" \
+	 -res_component "presistor" \
+	 -res_property_name "r" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/tmp/qrc_4056" \
+	 -temporary_directory_name "proj2_schem_sized_5"
+process_technology \
+	 -technology_corner \
+		"rcx_typical" \
+	 -technology_library_file "/home/t3rampal/ECE637/cadence/pvtech.lib" \
+	 -technology_name "gpdk045_pvs" \
+	 -temperature \
+		25.0
+
+

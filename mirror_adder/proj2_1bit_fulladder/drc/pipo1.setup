@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"proj2_1bit_fulladder"
+logFile	"/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc"
+strmFile	"/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/drc/proj2_schem_sized_5.gds"
+strmVersion	5
+techLib	"gpdk045"
+topCell	"proj2_schem_sized_5"
+view	"layout"

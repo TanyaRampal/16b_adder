@@ -1,0 +1,33 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary proj2_schem_sized_3
+# XXXX: End of header.
+% M 4 M 4
+% proj2_schem_sized_3 7 proj2_schem_sized_3 8
+0 X26/M0 0 MNM13  
+0 M2 0 MNM12  
+0 X32/M0 0 MNM11  
+0 M4 0 MNM10  
+0 M3 0 MNM9 X
+0 X36/M0 0 MNM8  
+0 X31/M0 0 MNM7  
+0 X21/M0 0 MNM6  
+0 M1 0 MNM5  
+0 X38/M0 0 MNM4  
+0 X41/M0 0 MNM3  
+0 M0 0 MNM2  
+0 X43/M0 0 MNM1  
+0 X42/M0 0 MNM0  
+0 M6 0 MPM13  
+0 M8 0 MPM12  
+0 X28/M0 0 MPM11 X
+0 M7 0 MPM10  
+0 X27/M0 0 MPM9  
+0 X29/M0 0 MPM8  
+0 X30/M0 0 MPM7  
+0 X23/M0 0 MPM6  
+0 X40/M0 0 MPM5  
+0 M5 0 MPM4  
+0 X22/M0 0 MPM3  
+0 X37/M0 0 MPM2  
+0 X39/M0 0 MPM1  
+0 X33/M0 0 MPM0  

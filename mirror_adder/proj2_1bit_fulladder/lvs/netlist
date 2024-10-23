@@ -1,0 +1,60 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  proj2_1bit_fulladder
+* Top Cell Name: proj2_schem_sized_5
+* View Name:     schematic
+* Netlisted on:  Oct 29 17:02:46 2023
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: proj2_1bit_fulladder
+* Cell Name:    proj2_schem_sized_5
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT proj2_schem_sized_5 A B Ci Co S VDD VSS
+*.PININFO A:I B:I Ci:I Co:O S:O VDD:B VSS:B
+MNM13 net56 Ci VSS VSS g45n1svt m=1 l=45n w=360n
+MNM12 net57 B net56 VSS g45n1svt m=1 l=45n w=360n
+MNM11 net49 A net57 VSS g45n1svt m=1 l=45n w=360n
+MNM10 S net49 VSS VSS g45n1svt m=1 l=45n w=120n
+MNM9 net41 Ci VSS VSS g45n1svt m=1 l=45n w=240n
+MNM8 net41 B VSS VSS g45n1svt m=1 l=45n w=240n
+MNM7 net41 A VSS VSS g45n1svt m=1 l=45n w=240n
+MNM6 net49 net33 net41 VSS g45n1svt m=1 l=45n w=240n
+MNM5 Co net33 VSS VSS g45n1svt m=1 l=45n w=120n
+MNM4 net58 B VSS VSS g45n1svt m=1 l=45n w=240n
+MNM3 net33 A net58 VSS g45n1svt m=1 l=45n w=240n
+MNM2 net26 B VSS VSS g45n1svt m=1 l=45n w=240n
+MNM1 net26 A VSS VSS g45n1svt m=1 l=45n w=240n
+MNM0 net33 Ci net26 VSS g45n1svt m=1 l=45n w=240n
+MPM13 Co net33 VDD VDD g45p1svt m=1 l=45n w=205n
+MPM12 S net49 VDD VDD g45p1svt m=1 l=45n w=205n
+MPM11 net49 A net53 VDD g45p1svt m=1 l=45n w=1.2354e-6
+MPM10 net53 B net54 VDD g45p1svt m=1 l=45n w=1.2354e-6
+MPM9 net54 Ci net44 VDD g45p1svt m=1 l=45n w=1.2354e-6
+MPM8 net44 Ci VDD VDD g45p1svt m=1 l=45n w=411.799e-9
+MPM7 net44 B VDD VDD g45p1svt m=1 l=45n w=411.799e-9
+MPM6 net44 A VDD VDD g45p1svt m=1 l=45n w=411.799e-9
+MPM5 net49 net33 net44 VDD g45p1svt m=1 l=45n w=411.799e-9
+MPM4 net33 Ci net27 VDD g45p1svt m=1 l=45n w=411.799e-9
+MPM3 net27 B VDD VDD g45p1svt m=1 l=45n w=411.799e-9
+MPM2 net27 A VDD VDD g45p1svt m=1 l=45n w=411.799e-9
+MPM1 net55 B net27 VDD g45p1svt m=1 l=45n w=823.598e-9
+MPM0 net33 A net55 VDD g45p1svt m=1 l=45n w=823.598e-9
+.ENDS
+

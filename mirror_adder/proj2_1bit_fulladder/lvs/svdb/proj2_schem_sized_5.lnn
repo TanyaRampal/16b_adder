@@ -1,0 +1,121 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary proj2_schem_sized_5
+% M2_M1_CDNS_2 1
+% M2_M1_CDNS_3 1
+% M1_PO_CDNS_4 1
+% M2_M1_CDNS_5 1
+% M2_M1_CDNS_6 1
+% nmos1v_CDNS_13 5
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+% nmos1v_CDNS_14 3
+1 S_source_0
+2 D_drain_1
+% nmos1v_CDNS_15 5
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+% pmos1v_CDNS_16 5
+1 S_source_0
+3 D_drain_1
+5 B
+% pmos1v_CDNS_17 6
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+6 B
+% pmos1v_CDNS_18 10
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+5 D_drain_3
+6 S_source_4
+7 D_drain_5
+8 S_source_6
+10 B
+% pmos1v_CDNS_19 5
+1 S_source_0
+2 D_drain_1
+5 B
+% pmos1v_CDNS_20 5
+1 S_source_0
+3 D_drain_1
+5 B
+% pmos1v_CDNS_21 6
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+6 B
+% pmos1v_CDNS_22 5
+1 D_drain_1
+3 S_source_2
+5 B
+% pmos1v_CDNS_23 8
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+5 D_drain_3
+6 S_source_4
+8 B
+% nmos1v_CDNS_24 4
+1 D_drain_1
+3 S_source_2
+% nmos1v_CDNS_25 5
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+% nmos1v_CDNS_26 4
+1 S_source_0
+3 D_drain_1
+% nmos1v_CDNS_27 4
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+% pmos1v_CDNS_28 8
+1 D_drain_1
+2 S_source_0
+4 S_source_2
+5 D_drain_3
+8 B
+% nmos1v_CDNS_29 4
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+% nmos1v_CDNS_30 5
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+% nmos1v_CDNS_31 6
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+5 D_drain_3
+% pmos1v_CDNS_32 5
+1 D_drain_1
+2 S_source_0
+5 B
+% pmos1v_CDNS_33 10
+1 D_drain_1
+3 S_source_2
+4 D_drain_3
+5 S_source_4
+6 D_drain_5
+7 S_source_6
+10 B
+% nmos1v_CDNS_34 3
+1 D_drain_1
+3 S_source_2
+% pmos1v_CDNS_35 6
+1 S_source_0
+2 D_drain_1
+4 S_source_2
+6 B
+% proj2_schem_sized_5 7
+3 Ci
+6 A
+7 B
+8 VSS
+9 Co
+10 S
+14 VDD

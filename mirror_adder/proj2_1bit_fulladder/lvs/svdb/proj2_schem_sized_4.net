@@ -1,0 +1,345 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : proj2_schem_sized_4                          *
+* Netlisted  : Wed Oct 25 18:13:32 2023                     *
+* PVS Version: 19.12-s008 Mon Jan 13 18:07:50 PST 2020      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(g45n1svt) _nmos1v ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 1 MN(g45n1hvt) _nmos1v_hvt ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 2 MN(g45n1lvt) _nmos1v_lvt ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 3 MN(g45n1nvt) _nmos_12_native ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 4 MN(g45n2svt) _nmos_25 ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 5 MN(g45n2nvt) _nmos_25_native ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 6 MN(g45ncap1) _nmoscap1v ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 7 MN(g45ncap2) _nmoscap2v ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 8 MP(g45p1svt) _pmos1v pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+*.DEVTMPLT 9 MP(g45p1hvt) _pmos1v_hvt pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+*.DEVTMPLT 10 MP(g45p1lvt) _pmos1v_lvt pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+*.DEVTMPLT 11 MP(g45p2svt) _pmos2v pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+*.DEVTMPLT 12 MP(g45pcap1) _pmoscap1v pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+*.DEVTMPLT 13 MP(g45pcap2) _pmoscap2v pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+*.DEVTMPLT 14 R(g45rm1) _resm1 metal1_conn(PLUS) metal1_conn(MINUS)
+*.DEVTMPLT 15 R(g45rm2) _resm2 metal2_conn(PLUS) metal2_conn(MINUS)
+*.DEVTMPLT 16 R(g45rm3) _resm3 metal3_conn(PLUS) metal3_conn(MINUS)
+*.DEVTMPLT 17 R(g45rm4) _resm4 metal4_conn(PLUS) metal4_conn(MINUS)
+*.DEVTMPLT 18 R(g45rm5) _resm5 metal5_conn(PLUS) metal5_conn(MINUS)
+*.DEVTMPLT 19 R(g45rm6) _resm6 metal6_conn(PLUS) metal6_conn(MINUS)
+*.DEVTMPLT 20 R(g45rm7) _resm7 metal7_conn(PLUS) metal7_conn(MINUS)
+*.DEVTMPLT 21 R(g45rm8) _resm8 metal8_conn(PLUS) metal8_conn(MINUS)
+*.DEVTMPLT 22 R(g45rm9) _resm9 metal9_conn(PLUS) metal9_conn(MINUS)
+*.DEVTMPLT 23 R(g45rm10) _resm10 metal10_conn(PLUS) metal10_conn(MINUS)
+*.DEVTMPLT 24 R(g45rm11) _resm11 metal11_conn(PLUS) metal11_conn(MINUS)
+*.DEVTMPLT 25 R(g45rsnd) _ressndiff ndiff_conn(PLUS) ndiff_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 26 R(g45rnsnd) _resnsndiff ndiff_conn(PLUS) ndiff_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 27 R(g45rsnp) _ressnpoly poly_conn(PLUS) poly_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 28 R(g45rsnp) _ressnpoly_nw poly_conn(PLUS) poly_conn(MINUS) nwell_conn(B)
+*.DEVTMPLT 29 R(g45rnsnp) _resnsnpoly poly_conn(PLUS) poly_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 30 R(g45rnsnp) _resnsnpoly_nw poly_conn(PLUS) poly_conn(MINUS) nwell_conn(B)
+*.DEVTMPLT 31 R(g45rspd) _resspdiff pdiff_conn(PLUS) pdiff_conn(MINUS) nwell_conn(B)
+*.DEVTMPLT 32 R(g45rnspd) _resnspdiff pdiff_conn(PLUS) pdiff_conn(MINUS) nwell_conn(B)
+*.DEVTMPLT 33 R(g45rspp) _ressppoly poly_conn(PLUS) poly_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 34 R(g45rspp) _ressppoly_nw poly_conn(PLUS) poly_conn(MINUS) nwell_conn(B)
+*.DEVTMPLT 35 R(g45rnspp) _resnsppoly poly_conn(PLUS) poly_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 36 R(g45rnspp) _resnsppoly_nw poly_conn(PLUS) poly_conn(MINUS) nwell_conn(B)
+*.DEVTMPLT 37 R(g45rnws) _resnwsti nwell_conn(PLUS) nwell_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 38 R(g45rnwo) _resnwoxide nwell_conn(PLUS) nwell_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 39 D(g45nd1svt) _ndio psubstrate(PLUS) ndiff_conn(MINUS)
+*.DEVTMPLT 40 D(g45nd1lvt) _ndio_lvt psubstrate(PLUS) ndiff_conn(MINUS)
+*.DEVTMPLT 41 D(g45nd1hvt) _ndio_hvt psubstrate(PLUS) ndiff_conn(MINUS)
+*.DEVTMPLT 42 D(g45nd1nvt) _ndio_nvt psubstrate(PLUS) ndiff_conn(MINUS)
+*.DEVTMPLT 43 D(g45nd2svt) _ndio_2v psubstrate(PLUS) ndiff_conn(MINUS)
+*.DEVTMPLT 44 D(g45nd2nvt) _ndio_2v_nvt psubstrate(PLUS) ndiff_conn(MINUS)
+*.DEVTMPLT 45 D(g45pd1svt) _pdio pdiff_conn(PLUS) nwell_conn(MINUS)
+*.DEVTMPLT 46 D(g45pd1lvt) _pdio_lvt pdiff_conn(PLUS) nwell_conn(MINUS)
+*.DEVTMPLT 47 D(g45pd1hvt) _pdio_hvt pdiff_conn(PLUS) nwell_conn(MINUS)
+*.DEVTMPLT 48 D(g45pd2svt) _pdio_2v pdiff_conn(PLUS) nwell_conn(MINUS)
+*.DEVTMPLT 49 Q(g45vpnp2) _vpnp2 psubstrate(C) nwell_conn(B) pdiff_conn(E)
+*.DEVTMPLT 50 Q(g45vpnp5) _vpnp5 psubstrate(C) nwell_conn(B) pdiff_conn(E)
+*.DEVTMPLT 51 Q(g45vpnp10) _vpnp10 psubstrate(C) nwell_conn(B) pdiff_conn(E)
+*.DEVTMPLT 52 Q(g45vnpn2) _npn2 nwell_conn(C) psubstrate(B) npn_emit(E)
+*.DEVTMPLT 53 Q(g45vnpn5) _npn5 nwell_conn(C) psubstrate(B) npn_emit(E)
+*.DEVTMPLT 54 Q(g45vnpn10) _npn10 nwell_conn(C) psubstrate(B) npn_emit(E)
+*.DEVTMPLT 55 C(g45cmim) _mimcap CapMetal(PLUS) metal10_conn(MINUS) psubstrate(B)
+*.DEVTMPLT 56 L(g45inda) _ind_a ind10(PLUS) ind11(MINUS) psubstrate(B)
+*.DEVTMPLT 57 L(g45inds) _ind_s ind11(PLUS) ind11(MINUS) psubstrate(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: L                                               *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt L PLUS MINUS B
+.ends L
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M2_M1_CDNS_1                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M2_M1_CDNS_1 1
+** N=1 EP=1 FDC=0
+.ends M2_M1_CDNS_1
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M1_PO_CDNS_3                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M1_PO_CDNS_3 1
+** N=1 EP=1 FDC=0
+.ends M1_PO_CDNS_3
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M1_PO_CDNS_5                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M1_PO_CDNS_5 1
+** N=1 EP=1 FDC=0
+.ends M1_PO_CDNS_5
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M2_M1_CDNS_7                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M2_M1_CDNS_7 1
+** N=1 EP=1 FDC=0
+.ends M2_M1_CDNS_7
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M2_M1_CDNS_8                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M2_M1_CDNS_8 1
+** N=1 EP=1 FDC=0
+.ends M2_M1_CDNS_8
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_10                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_10 S_source_0 D_drain_1 3
+*.DEVICECLIMB
+** N=3 EP=3 FDC=0
+.ends nmos1v_CDNS_10
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_12                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_12 S_source_0 D_drain_1 3 4 B
+*.DEVICECLIMB
+** N=5 EP=5 FDC=1
+M0 D_drain_1 3 S_source_0 B g45p1svt L=4.5e-08 W=4.1e-07 AD=6.56e-14 AS=6.56e-14 PD=1.14e-06 PS=1.14e-06 fw=4.1e-07 sa=3.45e-07 sb=6.85e-07 sca=4.64711 scb=0.000527587 scc=2.33392e-07 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_12
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_13                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_13 D_drain_1 2 3 B
+** N=4 EP=4 FDC=1
+M0 D_drain_1 2 B B g45p1svt L=4.5e-08 W=4.1e-07 AD=5.74e-14 AS=6.56e-14 PD=1.1e-06 PS=1.14e-06 fw=4.1e-07 sa=8.9e-07 sb=1.4e-07 sca=5.76964 scb=0.00155458 scc=2.68649e-06 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_13
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_15                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_15 S_source_0 D_drain_1 3 4 B
+*.DEVICECLIMB
+** N=5 EP=5 FDC=0
+.ends pmos1v_CDNS_15
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_16                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_16 S_source_0 2 3
+*.DEVICECLIMB
+** N=3 EP=3 FDC=1
+M0 3 2 S_source_0 S_source_0 g45n1svt L=4.5e-08 W=3.6e-07 AD=2.16e-14 AS=5.04e-14 PD=8.4e-07 PS=1e-06 fw=3.6e-07 sa=1.4e-07 sb=9.16667e-07 sca=7.14103 scb=0.0044345 scc=7.81926e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_16
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_17                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_17 S_source_0 2 3 4 B
+*.DEVICECLIMB
+** N=5 EP=5 FDC=1
+M0 3 2 S_source_0 B g45p1svt L=4.5e-08 W=1.235e-06 AD=7.41e-14 AS=1.729e-13 PD=2.59e-06 PS=2.75e-06 fw=1.235e-06 sa=1.4e-07 sb=6.32186e-07 sca=5.58234 scb=0.00249002 scc=6.46717e-05 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_17
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_18                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_18 D_drain_1 2 3 B
+** N=4 EP=4 FDC=1
+M0 D_drain_1 2 B B g45p1svt L=4.5e-08 W=4.1e-07 AD=6.56e-14 AS=6.56e-14 PD=1.14e-06 PS=1.14e-06 fw=4.1e-07 sa=9.95e-07 sb=3.45e-07 sca=4.10412 scb=0.000316041 scc=1.25258e-07 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_18
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_19                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_19 D_drain_1 2 3 4 B
+*.DEVICECLIMB
+** N=5 EP=5 FDC=1
+M0 D_drain_1 2 3 B g45p1svt L=4.5e-08 W=1.235e-06 AD=1.934e-13 AS=7.41e-14 PD=2.85e-06 PS=2.59e-06 fw=1.235e-06 sa=3.5e-07 sb=4.22186e-07 sca=5.58234 scb=0.00249002 scc=6.46717e-05 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_19
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_20                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_20 S_source_0 2 3 4 B
+** N=5 EP=5 FDC=1
+M0 3 2 S_source_0 B g45p1svt L=4.5e-08 W=4.1e-07 AD=1.934e-13 AS=6.56e-14 PD=2.85e-06 PS=1.14e-06 fw=4.1e-07 sa=7.55e-07 sb=5.85e-07 sca=4.10412 scb=0.000316041 scc=1.25258e-07 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_20
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_21                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_21 S_source_0 2 3 4 B
+** N=5 EP=5 FDC=1
+M0 3 2 S_source_0 B g45p1svt L=4.5e-08 W=4.1e-07 AD=6.56e-14 AS=6.56e-14 PD=1.14e-06 PS=1.14e-06 fw=4.1e-07 sa=5.5e-07 sb=7.9e-07 sca=4.10412 scb=0.000316041 scc=1.25258e-07 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_21
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_22                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_22 S_source_0 2 3 4 B
+** N=5 EP=5 FDC=1
+M0 3 2 S_source_0 B g45p1svt L=4.5e-08 W=4.1e-07 AD=6.56e-14 AS=5.74e-14 PD=1.14e-06 PS=1.1e-06 fw=4.1e-07 sa=1.4e-07 sb=1.2e-06 sca=4.10412 scb=0.000316041 scc=1.25258e-07 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_22
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_24                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_24 S_source_0 2 3
+** N=3 EP=3 FDC=1
+M0 3 2 S_source_0 S_source_0 g45n1svt L=4.5e-08 W=2.4e-07 AD=3.84e-14 AS=3.36e-14 PD=8e-07 PS=7.6e-07 fw=2.4e-07 sa=1.4e-07 sb=1.2e-06 sca=6.87617 scb=0.00381027 scc=4.05166e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_24
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_25                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_25 D_drain_1 2 3 4
+*.DEVICECLIMB
+** N=4 EP=4 FDC=1
+M0 D_drain_1 2 3 4 g45n1svt L=4.5e-08 W=3.6e-07 AD=6.24e-14 AS=2.16e-14 PD=1.1e-06 PS=8.4e-07 fw=3.6e-07 sa=3.5e-07 sb=7.06667e-07 sca=7.14103 scb=0.0044345 scc=7.81926e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_25
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_26                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_26 D_drain_1 2 3
+** N=3 EP=3 FDC=1
+M0 D_drain_1 2 3 3 g45n1svt L=4.5e-08 W=2.4e-07 AD=3.36e-14 AS=3.84e-14 PD=7.6e-07 PS=8e-07 fw=2.4e-07 sa=8.6e-07 sb=1.4e-07 sca=6.47267 scb=0.00314502 scc=2.59946e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_26
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_27                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_27 S_source_0 2 3
+** N=3 EP=3 FDC=1
+M0 3 2 S_source_0 S_source_0 g45n1svt L=4.5e-08 W=2.4e-07 AD=3.84e-14 AS=3.84e-14 PD=8e-07 PS=8e-07 fw=2.4e-07 sa=5.5e-07 sb=7.9e-07 sca=6.87617 scb=0.00381027 scc=4.05166e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_27
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_28                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_28 D_drain_1 2 3
+** N=3 EP=3 FDC=1
+M0 D_drain_1 2 3 3 g45n1svt L=4.5e-08 W=2.4e-07 AD=3.84e-14 AS=3.84e-14 PD=8e-07 PS=8e-07 fw=2.4e-07 sa=9.95e-07 sb=3.45e-07 sca=6.87617 scb=0.00381027 scc=4.05166e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_28
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_29                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_29 D_drain_1 2 3 4 B
+*.DEVICECLIMB
+** N=5 EP=5 FDC=1
+M0 D_drain_1 2 3 B g45p1svt L=4.5e-08 W=8.25e-07 AD=1.36e-13 AS=4.95e-14 PD=2.03e-06 PS=1.77e-06 fw=8.25e-07 sa=2.45e-07 sb=4.60545e-07 sca=4.54667 scb=0.000885737 scc=3.76615e-06 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_29
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_30                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_30 D_drain_1 2 3 4
+*.DEVICECLIMB
+** N=4 EP=4 FDC=1
+M0 D_drain_1 2 3 4 g45n1svt L=4.5e-08 W=2.4e-07 AD=3.84e-14 AS=3.84e-14 PD=8e-07 PS=8e-07 fw=2.4e-07 sa=5.5e-07 sb=4.5e-07 sca=6.47267 scb=0.00314502 scc=2.59946e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_30
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_31                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_31 S_source_0 D_drain_1 3
+** N=3 EP=3 FDC=1
+M0 D_drain_1 3 S_source_0 S_source_0 g45n1svt L=4.5e-08 W=2.4e-07 AD=3.84e-14 AS=3.84e-14 PD=8e-07 PS=8e-07 fw=2.4e-07 sa=3.45e-07 sb=6.55e-07 sca=6.47267 scb=0.00314502 scc=2.59946e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_31
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_32                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_32 S_source_0 2 3
+*.DEVICECLIMB
+** N=3 EP=3 FDC=1
+M0 3 2 S_source_0 S_source_0 g45n1svt L=4.5e-08 W=2.4e-07 AD=1.44e-14 AS=3.36e-14 PD=6e-07 PS=7.6e-07 fw=2.4e-07 sa=1.4e-07 sb=8.6e-07 sca=6.47267 scb=0.00314502 scc=2.59946e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_32
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_CDNS_34                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_CDNS_34 S_source_0 2 3 4 B
+** N=5 EP=5 FDC=1
+M0 3 2 S_source_0 B g45p1svt L=4.5e-08 W=8.25e-07 AD=4.95e-14 AS=1.155e-13 PD=1.77e-06 PS=1.93e-06 fw=8.25e-07 sa=1.4e-07 sb=5.65545e-07 sca=4.54667 scb=0.000885737 scc=3.76615e-06 $X=0 $Y=0 $dt=8
+.ends pmos1v_CDNS_34
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_35                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_35 S_source_0 2 3 4
+** N=4 EP=4 FDC=1
+M0 3 2 S_source_0 4 g45n1svt L=4.5e-08 W=2.4e-07 AD=6.24e-14 AS=3.84e-14 PD=1.1e-06 PS=8e-07 fw=2.4e-07 sa=7.55e-07 sb=5.85e-07 sca=6.87617 scb=0.00381027 scc=4.05166e-05 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_35
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: proj2_schem_sized_4                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt proj2_schem_sized_4 A B Ci Co S VDD! VSS!
+** N=19 EP=7 FDC=28
+X0 1 M2_M1_CDNS_1 $T=1310 -2810 0 0 $X=1180 $Y=-2940
+X1 1 M2_M1_CDNS_1 $T=2130 -4430 0 0 $X=2000 $Y=-4560
+X2 1 M2_M1_CDNS_1 $T=2130 -2810 0 0 $X=2000 $Y=-2940
+X3 1 M2_M1_CDNS_1 $T=3220 -4430 0 0 $X=3090 $Y=-4560
+X4 2 M2_M1_CDNS_1 $T=8150 -4790 0 0 $X=8020 $Y=-4920
+X5 2 M2_M1_CDNS_1 $T=9450 -4790 0 0 $X=9320 $Y=-4920
+X6 B M1_PO_CDNS_3 $T=765 -6915 0 0 $X=645 $Y=-7015
+X7 4 M1_PO_CDNS_3 $T=4550 -5090 0 0 $X=4430 $Y=-5190
+X8 5 M1_PO_CDNS_3 $T=10370 -5110 0 0 $X=10250 $Y=-5210
+X9 A M1_PO_CDNS_5 $T=590 -2025 0 0 $X=470 $Y=-2145
+X10 Ci M1_PO_CDNS_5 $T=10050 -1970 0 0 $X=9930 $Y=-2090
+X11 Ci M2_M1_CDNS_7 $T=2260 -4950 0 0 $X=2180 $Y=-5080
+X12 Ci M2_M1_CDNS_7 $T=6310 -4410 0 0 $X=6230 $Y=-4540
+X13 Ci M2_M1_CDNS_8 $T=8260 -2320 0 0 $X=8130 $Y=-2450
+X14 Ci M2_M1_CDNS_8 $T=10050 -1970 0 0 $X=9920 $Y=-2100
+X15 VSS! Co 4 nmos1v_CDNS_10 $T=5320 -6300 0 0 $X=4900 $Y=-6500
+X16 VSS! S 5 nmos1v_CDNS_10 $T=11110 -6170 0 0 $X=10690 $Y=-6370
+X17 VDD! 1 B VSS! VDD! pmos1v_CDNS_12 $T=1880 -3830 0 0 $X=1520 $Y=-4030
+X18 1 A VSS! VDD! pmos1v_CDNS_13 $T=1560 -3830 1 180 $X=1050 $Y=-4030
+X19 VDD! Co 4 VSS! VDD! pmos1v_CDNS_15 $T=5320 -3600 0 0 $X=4900 $Y=-3800
+X20 VDD! S 5 VSS! VDD! pmos1v_CDNS_15 $T=11110 -3630 0 0 $X=10690 $Y=-3830
+X21 VSS! Ci 12 nmos1v_CDNS_16 $T=9290 -6510 1 180 $X=9000 $Y=-6710
+X22 2 Ci 13 VSS! VDD! pmos1v_CDNS_17 $T=9290 -4610 1 180 $X=9000 $Y=-4810
+X23 2 B VSS! VDD! pmos1v_CDNS_18 $T=7580 -3790 1 180 $X=7130 $Y=-3990
+X24 5 A 14 VSS! VDD! pmos1v_CDNS_19 $T=8870 -4610 1 180 $X=8360 $Y=-4810
+X25 2 4 5 VSS! VDD! pmos1v_CDNS_20 $T=8310 -3790 0 0 $X=7950 $Y=-3990
+X26 VDD! Ci 2 VSS! VDD! pmos1v_CDNS_21 $T=7900 -3790 0 0 $X=7540 $Y=-3990
+X27 VDD! A 2 VSS! VDD! pmos1v_CDNS_22 $T=7080 -3790 0 0 $X=6660 $Y=-3990
+X28 VSS! A 15 nmos1v_CDNS_24 $T=7080 -6390 0 0 $X=6660 $Y=-6590
+X29 5 A 16 VSS! nmos1v_CDNS_25 $T=8870 -6510 1 180 $X=8360 $Y=-6710
+X30 17 A VSS! nmos1v_CDNS_26 $T=1620 -6440 1 180 $X=1110 $Y=-6640
+X31 VSS! Ci 15 nmos1v_CDNS_27 $T=7900 -6390 0 0 $X=7540 $Y=-6590
+X32 15 B VSS! nmos1v_CDNS_28 $T=7580 -6390 1 180 $X=7130 $Y=-6590
+X33 4 A 18 VSS! VDD! pmos1v_CDNS_29 $T=2850 -4240 1 180 $X=2340 $Y=-4440
+X34 4 Ci 17 VSS! nmos1v_CDNS_30 $T=2350 -6440 0 0 $X=2110 $Y=-6640
+X35 VSS! 17 B nmos1v_CDNS_31 $T=1940 -6440 0 0 $X=1580 $Y=-6640
+X36 VSS! B 19 nmos1v_CDNS_32 $T=3060 -6440 1 180 $X=2770 $Y=-6640
+X37 1 B 18 VSS! VDD! pmos1v_CDNS_34 $T=3060 -4240 1 180 $X=2770 $Y=-4440
+X38 15 4 5 VSS! nmos1v_CDNS_35 $T=8310 -6390 0 0 $X=7950 $Y=-6590
+M0 19 A 4 VSS! g45n1svt L=4.5e-08 W=2.4e-07 AD=1.44e-14 AS=3.84e-14 PD=6e-07 PS=8e-07 fw=2.4e-07 sa=7.55e-07 sb=2.45e-07 sca=6.47267 scb=0.00314502 scc=2.59946e-05 $X=2760 $Y=-6440 $dt=0
+M1 Co 4 VSS! VSS! g45n1svt L=4.5e-08 W=1.2e-07 AD=1.68e-14 AS=1.68e-14 PD=5.2e-07 PS=5.2e-07 fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=6.55486 scb=0.0030776 scc=1.90684e-05 $X=5320 $Y=-6300 $dt=0
+M2 12 B 16 VSS! g45n1svt L=4.5e-08 W=3.6e-07 AD=2.16e-14 AS=2.16e-14 PD=8.4e-07 PS=8.4e-07 fw=3.6e-07 sa=8.11667e-07 sb=2.45e-07 sca=7.14103 scb=0.0044345 scc=7.81926e-05 $X=8990 $Y=-6510 $dt=0
+M3 S 5 VSS! VSS! g45n1svt L=4.5e-08 W=1.2e-07 AD=1.68e-14 AS=1.68e-14 PD=5.2e-07 PS=5.2e-07 fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=7.72255 scb=0.00507272 scc=6.08278e-05 $X=11110 $Y=-6170 $dt=0
+M4 4 Ci 1 VDD! g45p1svt L=4.5e-08 W=4.1e-07 AD=1.36e-13 AS=6.56e-14 PD=2.03e-06 PS=1.14e-06 fw=4.1e-07 sa=5.5e-07 sb=4.8e-07 sca=4.14259 scb=0.000352702 scc=1.79442e-07 $X=2290 $Y=-3830 $dt=8
+M5 Co 4 VDD! VDD! g45p1svt L=4.5e-08 W=2.05e-07 AD=2.87e-14 AS=2.87e-14 PD=6.9e-07 PS=6.9e-07 fw=2.05e-07 sa=1.4e-07 sb=1.4e-07 sca=4.07575 scb=0.000256887 scc=4.34485e-08 $X=5320 $Y=-3600 $dt=8
+M6 13 B 14 VDD! g45p1svt L=4.5e-08 W=1.235e-06 AD=7.41e-14 AS=7.41e-14 PD=2.59e-06 PS=2.59e-06 fw=1.235e-06 sa=5.27186e-07 sb=2.45e-07 sca=5.58234 scb=0.00249002 scc=6.46717e-05 $X=8990 $Y=-4610 $dt=8
+M7 S 5 VDD! VDD! g45p1svt L=4.5e-08 W=2.05e-07 AD=2.87e-14 AS=2.87e-14 PD=6.9e-07 PS=6.9e-07 fw=2.05e-07 sa=1.4e-07 sb=1.4e-07 sca=8.92024 scb=0.00668973 scc=0.000101301 $X=11110 $Y=-3630 $dt=8
+.ends proj2_schem_sized_4

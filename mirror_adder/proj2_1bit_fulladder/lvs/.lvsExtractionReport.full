@@ -1,0 +1,59 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : proj2_schem_sized_5.rep
+ERC Summary File         : proj2_schem_sized_5.sum
+LVS Comparison Report    : proj2_schem_sized_5.rep.cls
+LVS Softchk Report       : proj2_schem_sized_5.softchk
+Layout Name              : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/proj2_schem_sized_5.gds ("proj2_schem_sized_5")
+User Name                : t3rampal
+Creation Time            : Sun Oct 29 17:02:50 2023
+Current directory        : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs
+PVS Version              : 19.12-s008 Mon Jan 13 18:07:50 PST 2020
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "M1_PO_CDNS_4"
+ for cell "M2_M1_CDNS_2"
+ for cell "M2_M1_CDNS_3"
+ for cell "M2_M1_CDNS_5"
+ for cell "M2_M1_CDNS_6"
+ for cell "nmos1v_CDNS_13"
+ for cell "nmos1v_CDNS_14"
+ for cell "nmos1v_CDNS_15"
+ for cell "nmos1v_CDNS_24"
+ for cell "nmos1v_CDNS_25"
+ for cell "nmos1v_CDNS_26"
+ for cell "nmos1v_CDNS_27"
+ for cell "nmos1v_CDNS_29"
+ for cell "nmos1v_CDNS_30"
+ for cell "nmos1v_CDNS_31"
+ for cell "nmos1v_CDNS_34"
+ for cell "pmos1v_CDNS_16"
+ for cell "pmos1v_CDNS_17"
+ for cell "pmos1v_CDNS_18"
+ for cell "pmos1v_CDNS_19"
+ for cell "pmos1v_CDNS_20"
+ for cell "pmos1v_CDNS_21"
+ for cell "pmos1v_CDNS_22"
+ for cell "pmos1v_CDNS_23"
+ for cell "pmos1v_CDNS_28"
+ for cell "pmos1v_CDNS_32"
+ for cell "pmos1v_CDNS_33"
+ for cell "pmos1v_CDNS_35"
+ for cell "proj2_schem_sized_5"

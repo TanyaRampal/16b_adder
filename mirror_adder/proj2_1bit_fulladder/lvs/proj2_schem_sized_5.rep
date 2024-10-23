@@ -1,0 +1,28 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : proj2_schem_sized_5.rep
+ERC Summary File         : proj2_schem_sized_5.sum
+LVS Comparison Report    : proj2_schem_sized_5.rep.cls
+LVS Softchk Report       : proj2_schem_sized_5.softchk
+Layout Name              : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/proj2_schem_sized_5.gds ("proj2_schem_sized_5")
+User Name                : t3rampal
+Creation Time            : Sun Oct 29 17:02:50 2023
+Current directory        : /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs
+PVS Version              : 19.12-s008 Mon Jan 13 18:07:50 PST 2020
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)

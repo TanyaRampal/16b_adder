@@ -1,0 +1,129 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.10s.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 03/06/2019 02:39 (ip-172-18-22-55) $
+          : sub-version  IC6.1.8-64b.500.2 
+Started at: 29-Oct-2023  17:02:45
+User Name : t3rampal
+Host Name : iccad1
+Directory : /home/t3rampal/ECE637/cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+WARNING (XSTRM-20): Output Stream file '/home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/proj2_schem_sized_5.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /CMC/kits/GPDK45/gpdk045_v_6_0/gpdk045/gpdk045.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 proj2_1bit_fulladder
+strmFile                                /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/proj2_schem_sized_5.gds
+topCell                                 proj2_schem_sized_5
+view                                    layout
+runDir                                  /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs
+logFile                                 /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/PIPO1.LOG
+techLib                                 gpdk045
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /CMC/kits/GPDK45/gpdk045_v_6_0/gpdk045/gpdk045.layermap
+userSkillFile                           /home/t3rampal/ECE637/cadence/proj2_1bit_fulladder/lvs/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+convertPin                              geometryAndText
+
+INFO (XSTRM-223): 1. Translating cellView gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_1.
+INFO (XSTRM-223): 2. Translating cellView gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_2.
+INFO (XSTRM-223): 3. Translating cellView gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_3.
+INFO (XSTRM-223): 4. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_4.
+INFO (XSTRM-223): 5. Translating cellView gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_5.
+INFO (XSTRM-223): 6. Translating cellView gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_6.
+INFO (XSTRM-223): 7. Translating cellView gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7.
+INFO (XSTRM-223): 8. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_8.
+INFO (XSTRM-223): 9. Translating cellView gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_9.
+INFO (XSTRM-223): 10. Translating cellView gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_10.
+INFO (XSTRM-223): 11. Translating cellView gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_11.
+INFO (XSTRM-223): 12. Translating cellView gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_12.
+INFO (XSTRM-223): 13. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_13.
+INFO (XSTRM-223): 14. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_14.
+INFO (XSTRM-223): 15. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_15.
+INFO (XSTRM-223): 16. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_16.
+INFO (XSTRM-223): 17. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_17.
+INFO (XSTRM-223): 18. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_18.
+INFO (XSTRM-223): 19. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_19.
+INFO (XSTRM-223): 20. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_20.
+INFO (XSTRM-223): 21. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_21.
+INFO (XSTRM-223): 22. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_22.
+INFO (XSTRM-223): 23. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_23.
+INFO (XSTRM-223): 24. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_24.
+INFO (XSTRM-223): 25. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_25.
+INFO (XSTRM-223): 26. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_26.
+INFO (XSTRM-223): 27. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_27.
+INFO (XSTRM-223): 28. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_28.
+INFO (XSTRM-223): 29. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_29.
+INFO (XSTRM-223): 30. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_30.
+INFO (XSTRM-223): 31. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_31.
+INFO (XSTRM-223): 32. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_32.
+INFO (XSTRM-223): 33. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_33.
+INFO (XSTRM-223): 34. Translating cellView gpdk045/nmos1v/layout as STRUCTURE nmos1v_CDNS_34.
+INFO (XSTRM-223): 35. Translating cellView gpdk045/pmos1v/layout as STRUCTURE pmos1v_CDNS_35.
+INFO (XSTRM-223): 36. Translating cellView proj2_1bit_fulladder/proj2_schem_sized_5/layout as STRUCTURE proj2_schem_sized_5.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (20575, 2395). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (20575, 1850). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (21805, 1945). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (14765, 2600). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (4105, 2425). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (4105, 1985). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (7905, 2600). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+INFO (XSTRM-317): The 'proj2_1bit_fulladder/proj2_schem_sized_5/layout' has a pathSeg with diagonal orientation, or end style as custom or chamfer at (7905, 2535). This pathSeg will be translated as a boundary record in the GDS file during Stream Out.
+
+Summary of Objects Translated:
+	Scalar Instances:                       28
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             835
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           25
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               304
+	Text:                                   0
+	TextDisplay:                            0
+	Cells:                                  36
+
+Elapsed Time: 0.4s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 8212KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

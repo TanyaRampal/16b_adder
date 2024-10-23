@@ -1,0 +1,32 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Oct 25 18:44:48 2023 
+Best design point: 1
+Design specs: 
+	proj2_1bit_fulladder:proj2_schem_tb_buff_sized:1	corner	Nominal - 
+	tpHL1_S		54.52p
+	tpHL2_S		71.82p
+	tpHL3_S		62.39p
+	tpLH1_S		71.23p
+	tpLH2_S		71.47p
+	tpLH3_S		57.61p
+	tpHL1_Co		39.75p
+	tpHL2_Co		48.36p
+	tpLH1_Co		47.35p
+	tpLH2_Co		36.89p
+Design parameters: 
+	Wp_2		411.7n
+	Wp_4		823.4n
+	Wn		120n
+	Wn_2		240n
+	Wn_3		360n
+	Wp		20
+	Wp_6		1.235u
+	c		1f
+	r		1.715
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Wed Oct 25 18:44:54 2023 
